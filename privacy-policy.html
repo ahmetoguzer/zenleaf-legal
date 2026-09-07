@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -14,30 +14,38 @@
 <body>
 <h1>Privacy Policy</h1>
 <p><strong>Block Garden: Zen Puzzle</strong> (package <code>com.zenleafgames.blockgarden</code>)<br>
-Developer: Zen Leaf Games · Effective date: 31 August 2026</p>
+Developer: Zen Leaf Games · Effective date: 7 September 2026</p>
 
 <h2>Summary</h2>
-<p>Block Garden is playable without an account. Your game progress is stored on your device.
-We collect a limited amount of data to run analytics and show ads, as described below.
-We do not sell your personal data and we do not collect your name, email address, contacts,
-photos, or precise location.</p>
+<p>To play Block Garden you sign in with your Google Play Games account. We use that account to keep
+your scores, leaderboard ranking and game progress tied to you across devices. We collect a limited
+amount of data to run the game, its leaderboards, analytics and ads, as described below.
+We do not sell your personal data and we do not collect your e-mail address, contacts, photos,
+or precise location.</p>
 
 <h2>Data we collect</h2>
 <ul>
-  <li><strong>Analytics data</strong> (via Firebase Analytics): app interactions such as
+  <li><strong>Account and sign-in (via Google Play Games Services and Unity Gaming Services):</strong>
+      your Play Games player ID and display name, a game-specific player ID that Unity Gaming
+      Services (Unity Technologies) creates for your account, and a session token stored on your
+      device. Used to sign you in, keep your progress and show your profile.</li>
+  <li><strong>Gardener name:</strong> the nickname you choose in the game. It is shown publicly
+      to other players on the leaderboards next to your scores.</li>
+  <li><strong>Scores and leaderboards (via Unity Gaming Services Leaderboards):</strong> your
+      game scores, weekly/monthly/all-time rankings and archived past rankings, together with the
+      run statistics (pieces placed, lines cleared, duration) used to validate scores on our servers
+      (Unity Cloud Code).</li>
+  <li><strong>Analytics data (via Firebase Analytics):</strong> app interactions such as
       sessions, level results and purchases, device model, OS version, country (coarse,
       IP-based), and a resettable app instance identifier. Used to understand and improve
       the game.</li>
-  <li><strong>Advertising data</strong> (via Unity LevelPlay and its ad network partners,
-      including Google AdMob and Meta Audience Network): advertising identifier (AAID),
+  <li><strong>Advertising data (via Unity LevelPlay and its ad network partners,
+      including Google AdMob and Meta Audience Network):</strong> advertising identifier (AAID),
       IP address, device information and ad interaction events. Used to serve and measure ads,
       and — only with your consent where required — to personalize them.</li>
-  <li><strong>Crash data</strong> (via Firebase Crashlytics): crash logs and device state,
+  <li><strong>Crash data (via Firebase Crashlytics):</strong> crash logs and device state,
       used to fix stability problems.</li>
-  <li><strong>Optional sign-in</strong>: if you choose to sign in with Google Play Games,
-      we receive your Play Games player ID and display name to show your profile and
-      leaderboards. Signing in is never required to play.</li>
-  <li><strong>Purchases</strong>: in-app purchases are processed entirely by Google Play.
+  <li><strong>Purchases:</strong> in-app purchases are processed entirely by Google Play.
       We receive only an anonymized purchase confirmation — never your payment details.</li>
 </ul>
 
@@ -48,19 +56,26 @@ photos, or precise location.</p>
   <li>You can reset or delete your advertising ID in your device settings
       (Settings → Google → Ads).</li>
   <li>You can remove all ads permanently via the "Remove Ads" in-app purchase.</li>
-  <li>Game progress is stored locally; uninstalling the app deletes it.</li>
+  <li>You can sign out of your account at any time from Settings → Account. Local progress stays on
+      the device until you delete the account or uninstall the app.</li>
 </ul>
 
 <h2>Data sharing</h2>
-<p>Analytics, crash and advertising data are processed by our service providers
-(Google/Firebase, Unity LevelPlay, and the ad networks listed above) under their own privacy
-policies. Data is transferred over encrypted connections (TLS). We share data with no other
-third parties, except where the law requires it.</p>
+<p>Account, leaderboard, analytics, crash and advertising data are processed by our service
+providers — Google (Play Games Services, Firebase), Unity Technologies (Unity Gaming Services:
+Authentication, Leaderboards, Cloud Code; Unity LevelPlay) and the ad networks listed above — under
+their own privacy policies. Data is transferred over encrypted connections (TLS). We share data
+with no other third parties, except where the law requires it.</p>
 
 <h2>Data retention and deletion</h2>
-<p>Analytics data is retained for up to 14 months. To request deletion of data associated
-with your device or Play Games ID, contact us at the address below; we will complete the
-request within 30 days.</p>
+<p>Account and leaderboard data are kept while your account exists. Analytics data is retained for
+up to 14 months.</p>
+<p><strong>Deleting your account:</strong> in the game open Settings → Account → <em>Delete account</em>
+and confirm. This immediately deletes your Unity Gaming Services player, your leaderboard entries and
+the game progress on the device. Alternatively, follow the steps on our
+<a href="account-deletion.html">account deletion page</a> to request deletion by e-mail; we complete
+such requests within 30 days. Purchase records are held by Google Play under its own terms;
+anonymized analytics that cannot be linked to you may be retained for the period above.</p>
 
 <h2>Children</h2>
 <p>Block Garden is not directed at children under 13. The app declares a target audience of
@@ -71,7 +86,7 @@ request within 30 days.</p>
 this address, with the effective date above.</p>
 
 <h2>Contact</h2>
-<p>E-mail: zenleafgames@gmail.com</p>
+<p>E-mail: <a href="mailto:zenleafgames@gmail.com">zenleafgames@gmail.com</a></p>
 
 <footer>© 2026 Zen Leaf Games</footer>
 </body>
